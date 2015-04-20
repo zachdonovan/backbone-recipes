@@ -1,6 +1,6 @@
 // with a deep debt to [airbnb's baseview](https://github.com/airbnb/backbone.baseview).
 
-var Backbone = require('backbone'),
+var Backbone = require('./safeBackbone'),
     _ = require('underscore');
 
 exports = Backbone.View.extend({
